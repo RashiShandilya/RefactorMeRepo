@@ -1,0 +1,6 @@
+D:\Rashi Shandiliya\interviewsStuff\Journey\refactorme-be-v2\C#\RefactorMe.DontRefactor\bin\Debug\RefactorMe.DontRefactor.dll
+D:\Rashi Shandiliya\interviewsStuff\Journey\refactorme-be-v2\C#\RefactorMe.DontRefactor\bin\Debug\RefactorMe.DontRefactor.pdb
+D:\Rashi Shandiliya\interviewsStuff\Journey\refactorme-be-v2\C#\RefactorMe.DontRefactor\obj\Debug\RefactorMe.DontRefactor.csproj.CoreCompileInputs.cache
+D:\Rashi Shandiliya\interviewsStuff\Journey\refactorme-be-v2\C#\RefactorMe.DontRefactor\obj\Debug\RefactorMe.DontRefactor.dll
+D:\Rashi Shandiliya\interviewsStuff\Journey\refactorme-be-v2\C#\RefactorMe.DontRefactor\obj\Debug\RefactorMe.DontRefactor.pdb
+D:\Rashi Shandiliya\interviewsStuff\Journey\refactorme-be-v2\C#\RefactorMe.DontRefactor\obj\Debug\RefactorMe.DontRefactor.csprojAssemblyReference.cache

@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-touch.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-animate.js"></script>
+    <script src="http://ui-grid.info/docs/grunt-scripts/csv.js"></script>
+    <script src="http://ui-grid.info/docs/grunt-scripts/pdfmake.js"></script>
+    <script src="http://ui-grid.info/docs/grunt-scripts/vfs_fonts.js"></script>
+    <script src="http://ui-grid.info/release/ui-grid.js"></script>
+    <link rel="stylesheet" href="http://ui-grid.info/release/ui-grid.css" type="text/css">
+
+    <script src="app.js"></script>
+    <script src="productCtrl.js"></script>
+
+
+</head>
+
+<body>
+
+    <div ng-app="app" ng-controller="productCtrl">
+        Currency:
+        <input type="radio" name="currency" ng-model="currency.name" ng-change="change('NZD')"  value="NZD" checked />NZD
+        <input type="radio" name="currency" ng-model="currency.name" ng-change="change('USD')"   value="USD" />USD
+        <input type="radio" name="currency" ng-model="currency.name" ng-change="change('EURO')"  value="EURO" />EURO
+        <div id="grid1" ui-grid="ProductList" ui-grid-edit class="grid">
+
+        </div>
+
+    </div>
+   
+</body>
+</html>
